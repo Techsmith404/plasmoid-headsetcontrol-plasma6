@@ -1,0 +1,28 @@
+{
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "lazy-stripes@tigris.fr",
+                "Name": "Clément Mairet"
+            }
+        ],
+        "Category": "System Information",
+        "Description": "Show headset battery state",
+        "Icon": "headset",
+        "Id": "com.github.lazy-stripes.headsetcontrol",
+        "Name": "Headset Control",
+        "ServiceTypes": [
+            "Plasma/Applet"
+        ],
+        "Version": "1.1.0",
+        "Website": "https://github.com/lazy-stripes/plasmoid-headsetcontrol"
+    },
+    "KPackageStructure": "Plasma/Applet",
+    "X-Plasma-API-Minimum-Version": "6.0",
+    "X-Plasma-MainScript": "ui/main.qml",
+    "X-Plasma-NotificationArea": "true",
+    "X-Plasma-NotificationAreaCategory": "Hardware",
+    "Dependencies": [
+        "org.kde.plasma5support"
+    ]
+}
